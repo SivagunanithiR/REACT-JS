@@ -1,0 +1,110 @@
+.digital {
+    background-image: url('../Images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+ }
+ 
+ .logo img {
+    width: 250px;
+    height: auto;
+ }
+ 
+ h1 {
+    color: #100e0e;
+    font-size: 24px;
+ }
+ 
+ form {
+    margin-top: 20px;
+ }
+ 
+ input[type='text'] {
+    padding: 10px;
+    margin-right: 0px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+ }
+ 
+ button[type='submit'],
+ button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: x-small;
+ }
+ 
+ button[type='submit']:hover,
+ button:hover {
+    background-color: #0056b3;
+    font-size: x-small;
+ }
+ 
+ .buttons {
+    margin-top: 20px;
+    font-size: x-small;
+ }
+ 
+ .p {
+    margin-top: 20px;
+    color: #010802;
+ }
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f6f2f2; /* Navbar background color */
+  color: #161515; /* Navbar text color */
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.logo-space {
+  flex: 1; /* Distribute remaining space */
+}
+
+.nav-links {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #0a0a0a;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffd700; /* Change color on hover */
+}
+
+.profile-icon img {
+  width: 40px; /* Adjust profile icon size */
+  border-radius: 50%; /* Make it circular */
+  border: 2px solid #fff; /* Add border */
+  transition: border-color 0.3s ease;
+}
+
+.profile-icon img:hover {
+  border-color: #ffd700; /* Change border color on hover */
+}

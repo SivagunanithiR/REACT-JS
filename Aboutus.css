@@ -1,0 +1,76 @@
+.about-us {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-us h3 {
+    font-size: 28px;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+  }
+  
+  .about-us ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us ul li {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 8px;
+  }
+  
+  .about-us ul li:before {
+    content: "\2022"; /* Bullet character */
+    color: #007bff; /* Bullet color */
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  
+  .about-us .contact-info p {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .about-us .contact-info p svg {
+    margin-right: 8px;
+  }
+  
+  .about-us .contact-info p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .about-us .contact-info p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Highlighted Background for Contact Info */
+  .about-us .contact-info p {
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
